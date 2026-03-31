@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1b4332;
+  --color-primary-light: #2d6a4f;
+  --color-primary-dark: #081c15;
+  --color-accent: #d4af37;
+  --color-dark-bg: #121212;
+  --color-card-bg: #1e1e1e;
+}
+
+body {
+  @apply bg-dark-bg text-gray-100 min-h-screen font-sans;
+}
