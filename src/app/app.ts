@@ -1,12 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Header } from './components/header/header';
 import { Footer } from './components/footer/footer';
 import { AgeVerification } from './components/age-verification/age-verification';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Header, Footer, AgeVerification],
+  imports: [RouterOutlet, Footer, AgeVerification],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
