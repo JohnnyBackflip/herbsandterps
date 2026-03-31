@@ -10,5 +10,5 @@ import { AgeVerification } from './components/age-verification/age-verification'
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('herbs-n-terps');
+  protected readonly title = signal('Herbs n Terps');
 }
