@@ -1,0 +1,14 @@
+<header class="bg-card-bg shadow-md sticky top-0 z-40 border-b border-primary-light/20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-20">
+      <div class="flex items-center cursor-pointer" routerLink="/">
+        <img src="/logo.webp" alt="Herbs & Terps Logo" class="h-16 w-auto mr-3">
+        <span class="font-bold text-xl text-primary-light hidden sm:block">Herbs & Terps e.V.</span>
+      </div>
+      <div class="flex items-center space-x-6">
+        <a routerLink="/" routerLinkActive="text-accent" [routerLinkActiveOptions]="{exact: true}" class="text-gray-300 hover:text-white transition-colors duration-200 font-medium">Startseite</a>
+        <a routerLink="/impressum" routerLinkActive="text-accent" class="text-gray-300 hover:text-white transition-colors duration-200 font-medium">Impressum</a>
+      </div>
+    </div>
+  </div>
+</header>
